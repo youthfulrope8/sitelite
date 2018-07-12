@@ -4,8 +4,7 @@ function answerAndQuestion() {
     var answer = prompt("Your answer to question");
 
     var questionTest = prompt(question);
-
-    alert(questionTest)
+    
     if(questionTest == answer) {
         alert("Success! Right answer.");
     }
